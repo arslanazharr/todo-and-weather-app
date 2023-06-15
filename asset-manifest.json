@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo-and-weather-app/static/css/main.f14fb4fb.css",
+    "main.js": "/todo-and-weather-app/static/js/main.ba9d0c4a.js",
+    "index.html": "/todo-and-weather-app/index.html",
+    "main.f14fb4fb.css.map": "/todo-and-weather-app/static/css/main.f14fb4fb.css.map",
+    "main.ba9d0c4a.js.map": "/todo-and-weather-app/static/js/main.ba9d0c4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f14fb4fb.css",
+    "static/js/main.ba9d0c4a.js"
+  ]
+}
