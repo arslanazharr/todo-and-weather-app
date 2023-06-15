@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import TodoApp from "./Apps/todoApp/TodoApp";
+import WeatherApp from "./Apps/weatherApp/WeatherApp";
+import Navigation from "./components/Navigation";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigation />
+      <Routes>
+        <Route path="/TodoApp" element={<TodoApp />} />
+        <Route path="/WeatherApp" element={<WeatherApp />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;
